@@ -40,7 +40,7 @@ dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Dat
 biji=$(date +"%Y-%m-%d" -d "$dateFromServer")
 
 # URL repository
-REPO="http://myrid.my.id/os/"
+REPO="https://raw.githubusercontent.com/AyolahHh/os/main/menu/"
 pwadm="@Ridwan112#"
 # Download file dan proses
 
